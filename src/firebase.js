@@ -1,14 +1,12 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDrub0-mxwdxa5n4odI5cbNLzu2fEENZZk",
-  authDomain: "vance-sign-in.firebaseapp.com",
-  projectId: "vance-sign-in",
-  storageBucket: "vance-sign-in.firebasestorage.app",
-  messagingSenderId: "1054140343805",
-  appId: "1:1054140343805:web:611ac6a13e60b0f1ae6594",
-
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
