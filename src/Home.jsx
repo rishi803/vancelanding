@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import SignIn from "./SignIn.jsx";
-import vancelogo from "./assets/vancelogo.png";
+import vancelogo from "./assets/vanceLogo.png";
 import appleimg from "./assets/apple.png";
 import android from "./assets/android.png";
 import left1 from "./assets/left1.png";
